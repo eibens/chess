@@ -1,0 +1,12 @@
+{
+  "tasks": {
+    "fix": "deno fmt && deno lint",
+    "serve": "deno run --allow-read --allow-net --allow-run=deno tasks/serve.ts"
+  },
+  "lib": [
+    "dom",
+    "dom.iterable",
+    "dom.asyncIterable",
+    "deno.ns"
+  ]
+}
